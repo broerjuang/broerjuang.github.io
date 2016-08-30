@@ -1,54 +1,79 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
   <head>
-    <meta charset="UTF-8">
-    <title>Juang Wiantoro | An amateur path to learn web dev</title>
-    <link rel="stylesheet" href="assets/css/normalize.css">
-    <link rel="stylesheet" href="assets/css/main.css">
+    <meta charset="utf-8">
+    <title>Juang Wiantoro | A Journey to be web dev</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
   </head>
+
   <body>
-    <header class="container group">
+
+    <!-- Header -->
+
+    <header class="primary-header container group">
       <h1 class="logo">
-        <a href="index.html">JW</a>
+        <a href="index.html">J.W</a>
       </h1>
       <nav class="nav primary-nav">
-        <a href="assignment.html">assignment</a><!--This assignment has dropdown menu devided into weekly assignment-->
-        <a href="blog.html">blog</a><!--This should be connect directly to Jekyll as a blog post-->
-        <a href="contact.html">contact</a><!--Contact should contain form-->
+        <a href="members.html">Members</a>
+        <a href="Assignments.html">Assignments</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact Me</a>
       </nav>
     </header>
+
+    <!-- Hero -->
+
     <section class="hero container">
-      <h1>Juang Wiantoro</h1>
-      <p>Learning Journal</p>
-      <div>
-        <a href="https://github.com/broerjuang"><img src="#" alt="Github"></a>
-      </div>
-      <div>
-        <a href="#"><img src="#" alt="Blog"></a>
-      </div>
-      <div>
-        <a href="#"><img src="#" alt="Contact"></a>
+      <h2>Juang Wiantoro</h2>
+      <p>A Journey to learn how to program</p>
+      <a class="btn btn-alt" href="contact.html">Contact Me</a>
+    </section>
+
+    <!-- Main Description -->
+
+    <section class="row">
+      <div class="grid">
+        <section class="col-2-3">
+          <h3>About Me</h3>
+          <p>Hi all,</p>
+
+          <p>Gue Juang Wiantoro, biasa dipanggil dengan banyak sebutan, tapi untuk temen-temen Hacktiv bisa panggil gue dengan Juang.</p>
+
+          <p>Gue bergabung di Hacktiv8 karena berharap dapat membuat web apps seperti Khanacademy secara khusus dan menyelesaikan masalah pendidikan lewat teknologi secara umum.</p>
+
+          <p>Engineer idola gue adalah Linus Torvalds, meskipun nggak menggunakan Linux sehari-hari, tapi Linus merupakan <em>role model</em> gue. Cara dia menyelesaikan masalah sangat patut <strong>ditiru</strong>.</p>
+        </section><!--
+
+        --><aside class="col-1-3">
+          <div id="juang">
+            <a href="https://facebook.com/broerjuang"><img src="images/juang.jpg" alt="Juang Wiantoro"></a>
+            <ul>
+              <li><a href="https://twitter.com/broerjuang">@broerjuang</a></li>
+              <li><a href="mailto:juangwiantoro@gmail.com?subject=Hello%20Juang">My Email</a></li>
+            </ul>
+          </div>
+        </aside>
       </div>
     </section>
-    <section class="grid">
-      <section class="col-1-3">
-        <p>Resume</p>
-      </section><!--
-    --><section class="col-1-3">
-        <p>Hacktiv8</p>
-      </section><!--
-    --><section class="col-1-3">
-        <p>Blog</p>
-      </section>
-    </section>
+
+    <!-- Footer -->
+
     <footer class="primary-footer container group">
+
       <small>&copy; Juang Wiantoro</small>
+
       <nav class="nav">
-        <a href="index.html">Home</a>
-        <a href="assignment.html">assignment</a>
-        <a href="blog.html">blog</a>
-        <a href="contact.html">contact</a>
+        <a href="members.html">Members</a>
+        <a href="Assignments.html">Assignments</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact Me</a>
       </nav>
+
     </footer>
+
   </body>
 </html>
