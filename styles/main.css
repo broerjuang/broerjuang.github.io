@@ -51,6 +51,7 @@ body {
   width: 66.66%;
 }
 
+
 /*
   ========================================
   Clearfix
@@ -85,9 +86,9 @@ body {
 }
 .row-alt {
   background: #cbe2c1;
-  background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
-  background:    -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
-  background:         linear-gradient(to right, #a1d3b0, #f6f1d3);
+  background: -webkit-linear-gradient(to right bottom, #e67e22, #e74c3c);
+  background:    -moz-linear-gradient(to right bottom, #e67e22, #e74c3c);
+  background:         linear-gradient(to right bottom, #f1c40f, #e67e22);
   padding: 44px 0 22px 0;
 }
 
@@ -129,6 +130,27 @@ strong {
 cite,
 em {
   font-style: italic;
+}
+
+/*
+  ========================================
+  Leads
+  ========================================
+*/
+
+.lead {
+  text-align: center;
+}
+
+.lead img {
+  width: 200px;
+  height: 200px;
+}
+
+.lead p {
+  font-size: 21px;
+  line-height: 33px;
+  color: #fff;
 }
 
 
@@ -263,3 +285,83 @@ p a {
   padding-bottom: 22px;
   text-align: center;
 }
+
+/*
+  ========================================
+  Section
+  ========================================
+*/
+
+.segment {
+  background-color: #9b59b6;
+}
+
+/*
+  ========================================
+  Members
+  ========================================
+*/
+
+.primary-member p {
+  text-align: left;
+}
+
+/* Member 1 */
+
+.member1 img:hover {
+  transform: rotate(30deg);
+
+}
+
+/* Member 2 */
+.member2 img:hover {
+  transform: scale(2);
+}
+
+/* Member 3*/
+.member3 img:hover {
+  transform: skew(-10deg);
+}
+
+/* Member 4 */
+.member4 img:hover {
+  transform: translate(20%);
+}
+
+/* Member 5 */
+.member5 img:hover {
+  transform: perspective(200px) rotateX(45deg);
+}
+
+/* Member 6 */
+
+@keyframes slide {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 244px;
+    top: 100px;
+  }
+  100% {
+    left: 488px;
+    top: 0;
+  }
+}
+.member6{
+  border-radius: 6px;
+  height: 150px;
+  position: relative;
+  min-width: 538px;
+}
+.member6 .stage:hover .ball {
+  animation: slide 5s linear;
+}
+.member6 .ball {
+  background: #2db34a;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+} /* Masih copas dari Shayhowe, nanti diganti */
