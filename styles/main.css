@@ -373,3 +373,17 @@ p a {
   position: absolute;
   width: 50px;
 } /* Masih copas dari Shayhowe, nanti diganti */
+
+/*
+  ========================================
+  Assignment
+  ========================================
+*/
+
+
+.assignment {
+  color: #fff;
+  text-align: center;
+  padding: 24px 24px;
+  border: solid black;
+}
