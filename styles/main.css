@@ -387,3 +387,48 @@ p a {
   padding: 24px 24px;
   border: solid black;
 }
+
+
+/*
+  ========================================
+  Forms
+  ========================================
+*/
+
+
+form {
+  margin-bottom: 22px;
+}
+input,
+select,
+textarea {
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.questiongroup label {
+  color: #648880;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.questiongroup input,
+.questiongroup select,
+.questiongroup textarea {
+  border: 1px solid #c6c9cc;
+  border-radius: 5px;
+  color: #888;
+  display: block;
+  margin: 5px 0 27px 0;
+  padding: 5px 8px;
+}
+.questiongroup input,
+.questiongroup textarea {
+  width: 100%;
+}
+.questiongroup select {
+  height: 34px;
+  width: 60px;
+}
+.questiongroup textarea {
+  height: 100px;
+}
