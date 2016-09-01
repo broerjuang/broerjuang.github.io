@@ -6,7 +6,9 @@
 */
 
 body {
-  background: #293f50;
+  background: -webkit-linear-gradient(to right bottom, #f39c12, #c0392b);
+  background:    -moz-linear-gradient(to right bottom, #f39c12, #c0392b);
+  background:         linear-gradient(to right bottom, #f39c12, #c0392b);
   color: #888;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -138,7 +140,8 @@ em {
   ========================================
 */
 
-.lead {
+.lead{
+  vertical-align: center;
   text-align: center;
 }
 
@@ -280,10 +283,15 @@ p a {
 }
 
 #juang {
-  border-radius: 5px;
-  margin-top: 88px;
+  margin-top: 15%;
   padding-bottom: 22px;
   text-align: center;
+}
+
+.titleDesc {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 55px;
 }
 
 /*
