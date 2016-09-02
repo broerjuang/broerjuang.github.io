@@ -445,12 +445,19 @@ textarea {
 
 .blog img {
   max-width: 300px;
+  max-height: 250px;
   text-align: center;
+  margin: auto 0;
 }
 
 .blog figcaption,
-.blog h2 {
+.blog h2{
   text-align: center;
+}
+
+.blog h3 {
+  text-align: center;
+  color: #c0392b;
 }
 
 .blog p {
