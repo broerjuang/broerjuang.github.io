@@ -432,3 +432,28 @@ textarea {
 .questiongroup textarea {
   height: 100px;
 }
+
+/*
+  ========================================
+  Blog
+  ========================================
+*/
+
+.blog .story {
+  margin-bottom: 2em;
+}
+
+.blog img {
+  max-width: 300px;
+  text-align: center;
+}
+
+.blog figcaption,
+.blog h2 {
+  text-align: center;
+}
+
+.blog p {
+  text-align: left;
+  margin-left: 20px;
+}
