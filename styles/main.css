@@ -471,6 +471,10 @@ textarea {
   margin-left: 20px;
 }
 
+.blog iframe {
+  display: block;
+  margin: auto;
+}
 /*
   ========================================
   Wireframe
