@@ -102,6 +102,7 @@ body {
 
 h1, h2, h3, h4 {
   color: #648880;
+  text-align: center;
 }
 h1, h3, h4, h5, p {
   margin-bottom: 22px;
@@ -447,7 +448,8 @@ textarea {
   max-width: 300px;
   max-height: 250px;
   text-align: center;
-  margin: auto 0;
+  display: block;
+  margin: auto;
 }
 
 .blog figcaption,
@@ -487,3 +489,40 @@ textarea {
   margin-bottom: 2em;
 }
 
+/*
+  ========================================
+  Web Evaluation
+  ========================================
+*/
+.web-eval {
+  text-align: left;
+}
+
+
+.web-eval figcaption {
+  margin: 3em auto;
+  text-align: center;
+  color: orange;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.eval-scroll{
+  width: 700px;
+  height: 400px;
+  overflow-y: scroll;
+  margin: 20px auto;
+  text-align: center;
+}
+.eval-scroll img {
+  display: block;
+  max-width: 700px;
+}
+
+.eval-scroll h2 {
+  text-align: center;
+}
+
+hr {
+  margin-bottom: 30px;
+}
