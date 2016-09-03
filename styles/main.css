@@ -500,11 +500,17 @@ textarea {
 
 
 .web-eval figcaption {
-  margin: 3em auto;
+  margin: 1em auto;
   text-align: center;
   color: orange;
   text-transform: uppercase;
   text-decoration: underline;
+}
+
+.web-eval img{
+  display: block;
+  max-width: 450px;
+  margin: 20px auto;
 }
 
 .eval-scroll{
